@@ -9,8 +9,8 @@ Now you don't need to implement connection checks on different screens just use 
 In pubspec.yaml use global_network as dependency to use this package
 
 ```yaml
-dependencies:<br>
-  global_network:  <package_version>
+dependencies:
+  global_network: <package_version>
 ```
 
 # How to Use?
@@ -39,4 +39,23 @@ GlobalNetwork(
 
 # How screen look after using this?
 
-<img src="https://github.com/anki2jain/global_network/images/nonetworkscreen.jpeg" width="300" height="500">
+<img src="https://github.com/anki2jain/global_network/tree/master/images/nonetworkscreen.jpeg" width="300" height="500">
+
+# Contributions
+
+### Found any bug? Wants to add or suggest something new ideas ?
+
+- Fork the repo
+- Fix the bug / add new features
+- Commit your changes to new branch
+- Push the changes
+- Create a pull request
+
+# Upcoming Features
+
+- Customisable "no connection screen " as per our requirements.
+- Able to display bottomsheet inspite of full screen
+
+### Please don't forget to star this repo.
+
+### More star means more support.
