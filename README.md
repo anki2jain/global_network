@@ -39,7 +39,7 @@ GlobalNetwork(
 
 # How screen look after using this?
 
-<img src="https://github.com/anki2jain/global_network/tree/master/images/nonetworkscreen.jpeg" width="300" height="500">
+<img src="nonetworkscreen.jpeg" width="300" height="500">
 
 # Contributions
 
