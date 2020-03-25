@@ -2,9 +2,9 @@
 
 # global_network
 
-This package provides a GlobalNetwork widget that can be used to display a network error screen when app in offline mode.
+This package provides a GlobalNetwork widget that can be used in an application to display a network error screen during offline mode.
 
-Now you don't need to implement connection checks on different screens just use this package & let the app user know about the connection issues.
+You no longer need to apply connection checks to various screens, just use this package and let the app user know about the connection issues.
 
 # Dependencies
 
@@ -17,7 +17,7 @@ dependencies:
 
 # How to Use?
 
-- After adding dependency in pubspec.yaml firstly, import the package
+- After adding dependency in pubspec.yaml firstly, import the package given below:
 
 ```dart
 import 'package:global_network/global_network.dart';
@@ -32,7 +32,9 @@ import 'package:global_network/global_network.dart';
 
       child: MaterialApp());
 ```
+
 #### Example-
+
 ```dart
   StreamProvider<ConnectivityStatus>(
       create: (BuildContext context) => ConnectivityService().connectionStatusController.stream,
@@ -47,7 +49,7 @@ import 'package:global_network/global_network.dart';
     ));
 ```
 
-- Now you all setup to use this package just wrap your widget with new widget GlobalNetwork in order to display Internet connection error / warning screen.
+- Now you are all set to use this package, just wrap your widget with the new widget GlobalNetwork to display the Internet connection error / warning screen.
 
 ```dart
 GlobalNetwork(
@@ -58,9 +60,9 @@ GlobalNetwork(
     );
 ```
 
-- Hurray!!!! You screen is now network sensitive whenver you lost internet connectivity an warning screen will be display.
+- Hurray!!!! Your screen is now network sensitive so whenever you'll lost internet connectivity an warning screen will be display.
 
-* Wrap only those widgets where you need to show "connection screen"
+* Wrap only those widgets where you need to show "connection error screen"
 
 # How screen look after using this?
 
@@ -78,8 +80,8 @@ GlobalNetwork(
 
 # Upcoming Features
 
-- Customisable "no connection screen " as per our requirements.
-- Able to display bottomsheet inspite of full screen
+- Customisable "warning screen" as per your requirements.
+- Will be able to display the Bottlesheet, Alert dialog etc.
 
 ### Please don't forget to star this repo.
 
