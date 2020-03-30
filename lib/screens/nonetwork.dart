@@ -39,7 +39,7 @@ class NetworkSensitive extends StatelessWidget {
       return NoNetworkBottomSheet(child: child);
     }
     if (type == Displaytype.fullscreen) {
-      return Nonetwork(errorScreen:errorScreen);
+      return Nonetwork(errorScreen: errorScreen);
     }
 
     return Nonetwork();

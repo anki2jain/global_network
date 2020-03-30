@@ -1,6 +1,6 @@
 name: global_network
 description: This is a package which can be used to implement network connectivity globally within an app.
-version: 0.1.2
+version: 0.1.3
 
 homepage: https://github.com/anki2jain/global_network
 
