@@ -11,21 +11,9 @@ class NoNetworkBottomSheet extends StatefulWidget {
 }
 
 class _NoNetworkBottomSheetState extends State<NoNetworkBottomSheet> {
-  dialog() {
-    return WidgetsBinding.instance.addPostFrameCallback((_) async {
-      showBottomSheet<String>(
-          context: context,
-          builder: (context) => Container(
-                height: 20,
-                color: Colors.red,
-              ));
-    });
-  }
-
   @override
   void initState() {
     super.initState();
-    // dialog();
   }
 
   @override
@@ -39,6 +27,7 @@ class _NoNetworkBottomSheetState extends State<NoNetworkBottomSheet> {
           padding: const EdgeInsets.all(4.0),
           child: Text(
             "No internet!",
+            style: TextStyle(color: Colors.white),
             textAlign: TextAlign.center,
           ),
         ),
