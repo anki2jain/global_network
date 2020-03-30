@@ -1,20 +1,18 @@
 library global_network;
 
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:global_network/screens/network_error_screen/nonetwork.dart';
-export 'package:provider/provider.dart';
-export 'enums/connectivity_status.dart';
-export 'services/network_connection.dart';
+import 'utils/export.dart';
 
 class GlobalNetwork extends StatelessWidget {
   final Widget child;
+  final Displattype type;
+  final Widget errorScreen;
 
-  const GlobalNetwork({Key key, @required this.child}) : super(key: key);
+  const GlobalNetwork(
+      {Key key, @required this.child, this.type, this.errorScreen})
+      : super(key: key);
   @override
   Widget build(BuildContext context) {
-    return NetworkSensitive(
-      child: child,
-    );
+    return NetworkSensitive(child: child, type: type,errorScreen:errorScreen);
   }
 }

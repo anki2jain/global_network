@@ -83,6 +83,6 @@ GlobalNetwork(
 - Customisable "warning screen" as per your requirements.
 - Will be able to display the Bottlesheet, Alert dialog etc.
 
-### Please don't forget to star this repo.
+### Please don't forget to star the repo (https://github.com/anki2jain/global_network). 
 
 ### More star means more support.
