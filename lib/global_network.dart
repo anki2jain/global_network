@@ -5,7 +5,7 @@ import 'utils/export.dart';
 
 class GlobalNetwork extends StatelessWidget {
   final Widget child;
-  final Displattype type;
+  final Displaytype type;
   final Widget errorScreen;
 
   const GlobalNetwork(

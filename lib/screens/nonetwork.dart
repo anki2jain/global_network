@@ -6,7 +6,7 @@ import '../enums/connectivity_status.dart';
 
 class NetworkSensitive extends StatelessWidget {
   final Widget child;
-  final Displattype type;
+  final Displaytype type;
   final Widget errorScreen;
 
   NetworkSensitive({
@@ -27,18 +27,18 @@ class NetworkSensitive extends StatelessWidget {
       return child;
     }
 
-    if (type == Displattype.alertBox) {
+    if (type == Displaytype.alertBox) {
       return NoNetworkAlert(child: child);
     }
 
-    if (type == Displattype.bottomModalSheet) {
+    if (type == Displaytype.bottomModalSheet) {
       return NoNetworkModalBottomSheet(child: child);
     }
 
-    if (type == Displattype.bottomSheet) {
+    if (type == Displaytype.bottomSheet) {
       return NoNetworkBottomSheet(child: child);
     }
-    if (type == Displattype.fullscreen) {
+    if (type == Displaytype.fullscreen) {
       return Nonetwork(errorScreen:errorScreen);
     }
 

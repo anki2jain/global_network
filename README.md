@@ -66,7 +66,31 @@ GlobalNetwork(
 
 # How screen look after using this?
 
-<img src="https://raw.githubusercontent.com/anki2jain/global_network/master/images/nonetworkscreen.jpeg" width="300" height="500">
+<img src="https://raw.githubusercontent.com/anki2jain/global_network/master/images/fullscreen.jpeg" width="300" height="500">
+
+# Full Implementation
+
+This package provides different types of error screens such as alertbox, bottlesheet, botmodel and fullscreen. To use the error screen other than the default, simply pass data to the type argument (example: type: Displaytype.alertbox).
+
+```dart
+GlobalNetwork(
+      type: Displaytype.alertbox;
+      child: Scaffold(
+        appBar: AppBar(title: Text("Global Network")),
+        body: Center(child: Text("Network Connection Available")),
+      ),
+    );
+```
+
+### You'll get -
+
+<img src="https://raw.githubusercontent.com/anki2jain/global_network/master/images/alertbox.jpeg" width="300" height="500">
+
+### Similarly other types look like this -
+
+<img src="https://raw.githubusercontent.com/anki2jain/global_network/master/images/bottomsheet.jpeg" width="300" height="500">
+
+<img src="https://raw.githubusercontent.com/anki2jain/global_network/master/images/modal.jpeg" width="300" height="500">
 
 # Contributions
 
@@ -78,11 +102,16 @@ GlobalNetwork(
 - Push the changes
 - Create a pull request
 
-# Upcoming Features
+# New Features
 
 - Customisable "warning screen" as per your requirements.
 - Will be able to display the Bottlesheet, Alert dialog etc.
 
-### Please don't forget to star the repo (https://github.com/anki2jain/global_network). 
+# Upcoming Features
+
+- Will be able to display the game during offline mode
+- Will be able to add some exciting features that will engage the user during offline mode
+
+### Please don't forget to star the repo ( https://github.com/anki2jain/global_network ).
 
 ### More star means more support.
