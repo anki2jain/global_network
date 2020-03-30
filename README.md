@@ -64,7 +64,7 @@ GlobalNetwork(
 
 * Wrap only those widgets where you need to show "connection error screen"
 
-# How screen look after using this?
+# How does the screen look like after using this?
 
 <img src="https://raw.githubusercontent.com/anki2jain/global_network/master/images/fullscreen.jpeg" width="300" height="500">
 
@@ -86,7 +86,7 @@ GlobalNetwork(
 
 <img src="https://raw.githubusercontent.com/anki2jain/global_network/master/images/alertbox.jpeg" width="300" height="500">
 
-### Similarly other types look like this -
+### This is how other types look like-
 
 <img src="https://raw.githubusercontent.com/anki2jain/global_network/master/images/bottomsheet.jpeg" width="300" height="500">
 
