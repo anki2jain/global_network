@@ -1,5 +1,4 @@
 import 'dart:async';
-
 import 'package:connectivity/connectivity.dart';
 import '../enums/connectivity_status.dart';
 
@@ -22,7 +21,7 @@ class ConnectivityService {
       case ConnectivityResult.none:
         return ConnectivityStatus.Offline;
       default:
-        return ConnectivityStatus.Offline;
+        return ConnectivityStatus.Cellular;
     }
   }
 }

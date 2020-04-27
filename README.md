@@ -112,6 +112,6 @@ GlobalNetwork(
 - Will be able to display the game during offline mode
 - Will be able to add some exciting features that will engage the user during offline mode
 
-### Please don't forget to star the repo ( https://github.com/anki2jain/global_network ).
+#### Please don't forget to star the repo ( https://github.com/anki2jain/global_network ).
 
-### More star means more support.
+#### More star means more support.
