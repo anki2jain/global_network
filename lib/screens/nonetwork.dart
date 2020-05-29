@@ -3,6 +3,7 @@ import 'package:global_network/enums/displaytype.dart';
 import 'package:provider/provider.dart';
 import '../utils/export.dart';
 import '../enums/connectivity_status.dart';
+import '../utils/export.dart';
 
 class NetworkSensitive extends StatelessWidget {
   final Widget child;
@@ -40,6 +41,10 @@ class NetworkSensitive extends StatelessWidget {
     }
     if (type == Displaytype.fullscreen) {
       return Nonetwork(errorScreen: errorScreen);
+    }
+
+    if (type == Displaytype.game) {
+      return NoNetworkSnakeGame();
     }
 
     return Nonetwork();

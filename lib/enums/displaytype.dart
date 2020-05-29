@@ -1,1 +1,1 @@
-enum Displaytype { fullscreen, alertBox, bottomSheet, bottomModalSheet }
+enum Displaytype { fullscreen, alertBox, bottomSheet, bottomModalSheet,game }
